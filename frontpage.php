@@ -88,7 +88,7 @@ function iced_mocha_excerpt_more_slider( $more ) {
 		  case 'Disabled':
 			   break;
           case 'Custom Slides':
-               for ($i=1;$i<=5;$i++):
+               for ($i=1;$i<=10;$i++):
                     if(${"iced_mocha_sliderimg$i"}):
                          $slide['image'] = esc_url(${"iced_mocha_sliderimg$i"});
                          $slide['link'] = esc_url(${"iced_mocha_sliderlink$i"});
